@@ -25,6 +25,9 @@ public class FindMaxDiff {
 
         int[] rMin = new int[array.length];
 
+        for (int i = array.length -1; i >=0; i++) {
+            
+        }
 
     }
 

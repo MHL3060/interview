@@ -12,6 +12,33 @@ public class QuickSort {
   }
 
 
+  /**
+   * the quicksort is to choose a element as a comparision pivot. 
+   * 
+   * for example.  let say a list contains [4,1,2,5,3]
+   * we choose the last one '3' as the pivot.
+   * we scan the list from the begin
+   * if the element is greater than the pivot. swap
+   * if the element is not. choose a element prior the pivot
+   * 
+   * in this case 
+   * [4,1,2,5,3]
+   *          |
+   * [3,1,2,5,4]
+   *        |
+   * [3,1,2,4,5]
+   *      |
+   * [2,1,3,4,5]
+   *    |
+   * [1,2,3,4,5]
+   *  |
+   * 
+   * @param array
+   * @param start
+   * @param endx
+   */
+
+
   private void sort(int [] array, int start, int endx) {
     int comparator = array[endx-1];
     int partition = start;
