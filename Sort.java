@@ -20,6 +20,11 @@ public class Sort {
       }
       return result;
   }
+  /**
+   * merge sort is to 
+   * @param collection
+   * @return
+   */
   public int[] mergeSort(int[] collection) {
         int sizeOfCollection = collection.length;
         if (sizeOfCollection > 2) {

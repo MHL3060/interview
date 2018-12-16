@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hungry Rabbit</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+      td {
+        background-color: DarkGreen;
+        text-shadow: 1px 1px 1px white;
+        text-align: center;
+        padding: 0.25em;
+      }
+      tr:nth-child(even) td:nth-child(odd), 
+      tr:nth-child(odd) td:nth-child(even) {
+          background-color: Green;
+      }
+      td.eatten {
+        background-color: Brown;
+      }
+      tr:nth-child(even) td.eatten:nth-child(odd),
+      tr:nth-child(odd) td.eatten:nth-child(even) {
+          background-color: SaddleBrown;
+      }
+      td.eatten {
+        color: Orange;
+      }
+    </style>
+    <body>
+      <h1>Hungry Rabbit</h1>
+      <h2>Mr. McGregor's Garden<br>Press space bar to speed up the rabbit.</h2>
+      <div id="garden"></div>
+      <div id="total"></div>
+      <script src="rabbit.js"></script>
+      <script>
+
+      </script>
+    </body>
+</html>
