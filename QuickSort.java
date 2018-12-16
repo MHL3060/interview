@@ -43,8 +43,11 @@ public class QuickSort {
     int comparator = array[endx-1];
     int partition = start;
     for ( int i = start; i < endx -1; i++) {
-
+      // 
+      //
       if ( array[i] < comparator) {
+        // 
+        // 
         swap(array, partition, i);
         partition++;
       };

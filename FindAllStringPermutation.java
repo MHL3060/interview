@@ -24,6 +24,8 @@ public class FindAllStringPermutation {
         }
     }
 
+    public void permutation()
+
     public static void main(String[] args) {
         FindAllStringPermutation perm = new FindAllStringPermutation();
         List<String> result = new ArrayList<String>();
