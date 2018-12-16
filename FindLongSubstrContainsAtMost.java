@@ -5,6 +5,7 @@ import java.util.Set;
 public class FindLongSubstrContainsAtMost {
     public static void main(String[] args) {
        find("karappa", 2); 
+       find("abbbbbbbbbbbbbbc", 1);
     }
 
     public static void find(String s, int j) {
@@ -62,6 +63,6 @@ public class FindLongSubstrContainsAtMost {
             maxStart = start;
             maxSize = currentSize;
         }
-        System.out.println(String.format("max unique string is from index %s and the substring is %s", maxStart, s.substring(maxStart)));
+        System.out.println(String.format("max unique string is from index %s and the substring is %s", maxStart, s.substring(maxStart, maxStart+maxSize)));
     }
 }
